@@ -1,0 +1,17 @@
+{
+	"current":{
+		"url":"xx",
+		"pageloadtimeout":"90",
+		"implicitwaittime":"30"
+	},
+	"stage":{
+		"url":"yy",
+		"pageloadtimeout":"90",
+		"implicitwaittime":"30"
+	},
+	"prod":{
+		"url":"zz",
+		"pageloadtimeout":"90",
+		"implicitwaittime":"30"
+	}
+}

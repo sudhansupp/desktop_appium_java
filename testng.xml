@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite" thread-count="5">
+	<groups>
+		<run>
+			<include name="GradestarTest" />
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="coreUtilities.testlisteners.TestListener" />
+		<listener class-name="coreUtilities.testlisteners.RetryListener" />
+	</listeners>
+	<test name="Gradestar Automationc">
+		<classes>
+			<class name="testcases.Gradestar_POC" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
